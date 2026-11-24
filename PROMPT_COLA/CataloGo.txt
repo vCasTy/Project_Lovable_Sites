@@ -1,0 +1,36 @@
+Crie uma aplicação web moderna, funcional e responsiva com as seguintes características:
+
+Nome: CataloGo
+
+Categoria: Catálogo comercial digital para pequenos estabelecimentos.
+
+Objetivo: Permitir que clientes consultem produtos, montem um carrinho e encaminhem pedidos pelo WhatsApp.
+
+Design e identidade visual:
+- Estilo moderno, minimalista e profissional.
+- Paleta de cores em verde-esmeralda, branco e cinza-claro.
+- Tipografia Inter.
+- Cards com cantos arredondados, sombras suaves e imagens de produtos.
+- Layout Mobile First, adaptável a desktops.
+- Navegação simples e intuitiva.
+
+Funcionalidades:
+- Cabeçalho com identidade comercial.
+- Banner de apresentação.
+- Catálogo de produtos com imagens, descrições e preços.
+- Pesquisa por nome e filtros por categoria.
+- Carrinho com controle de quantidades e cálculo automático do total.
+- Persistência local do carrinho.
+- Resumo do pedido preparado para encaminhamento via WhatsApp.
+- Rodapé com informações comerciais.
+
+Requisitos técnicos:
+- Código, funções, variáveis e comentários em inglês.
+- Interface inteiramente em português brasileiro (pt-BR).
+- Valores monetários em reais (BRL).
+- Arquitetura modular e componentes reutilizáveis.
+- Configurações comerciais e visuais centralizadas, permitindo replicar o projeto para outros estabelecimentos.
+- Utilizar dados e produtos fictícios para demonstração.
+- Garantir que os botões e funcionalidades implementadas sejam operacionais.
+
+Nesta primeira versão, utilize dados locais, sem autenticação, banco de dados remoto ou pagamentos online. Prepare a estrutura para futuras expansões sem implementá-las agora.
