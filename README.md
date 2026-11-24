@@ -1,6 +1,6 @@
 # Project Lovable Sites
 
-Repositório de apoio ao curso presencial de criação de sites com Lovable (24 a 26/11/2026, 18h30–20h30). Serve como ponte para consultar e copiar contexto, checklists e prompts durante as aulas, não como repositório de código de uma aplicação já implementada.
+Repositório de apoio ao aprendizado de criação de sites com Lovable. Serve como ponte para consultar e copiar contexto, checklists e prompts durante as aulas, não como repositório de código de uma aplicação já implementada.
 
 ## Projetos
 
