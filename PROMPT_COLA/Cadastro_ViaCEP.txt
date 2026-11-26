@@ -1,0 +1,36 @@
+Crie uma página responsiva de cadastro de usuário, com design simples, limpo e intuitivo.
+
+Dados pessoais:
+- Nome completo
+- E-mail
+- Celular
+
+Dados de endereço:
+- CEP
+- Logradouro
+- Número
+- Complemento (opcional)
+- Bairro
+- Cidade
+- Estado (UF)
+
+Disponibilize dois modos de preenchimento do endereço: manual e automático via CEP.
+
+No modo automático, utilize uma requisição HTTP GET à API pública ViaCEP:
+
+https://viacep.com.br/ws/{cep}/json/
+
+Utilize JavaScript Fetch API para realizar a consulta.
+
+Requisitos funcionais:
+- Validar o CEP antes da requisição, garantindo que contenha oito dígitos.
+- Preencher automaticamente logradouro, bairro, cidade e estado com os dados retornados.
+- Permitir a edição manual dos campos preenchidos automaticamente.
+- Manter número e complemento para preenchimento manual.
+- Exibir um indicador durante a consulta.
+- Tratar CEP inválido, inexistente e falhas de conexão.
+- Permitir preenchimento inteiramente manual, independentemente da API.
+- Validar os campos obrigatórios.
+- Exibir uma mensagem de sucesso ao simular o cadastro.
+
+Não utilize banco de dados, autenticação ou backend. O objetivo é demonstrar o funcionamento de uma requisição GET e sua integração com um formulário de cadastro.
