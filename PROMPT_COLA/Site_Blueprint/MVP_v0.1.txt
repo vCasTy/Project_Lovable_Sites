@@ -1,0 +1,94 @@
+# Site Blueprint
+
+## Objetivo
+
+Desenvolva uma aplicação web que auxilie usuários sem conhecimento técnico a planejar sites e gerar prompts estruturados para ferramentas de desenvolvimento assistido por IA.
+
+A geração dos prompts deve ocorrer por meio de templates e regras condicionais predefinidas, sem utilizar APIs de inteligência artificial.
+
+## Interface
+
+Utilize uma interface moderna, minimalista, responsiva e intuitiva.
+
+Organize o processo de configuração em etapas, utilizando uma barra de progresso, botões de avançar e voltar, campos de seleção e cartões interativos.
+
+Utilize linguagem simples em português brasileiro. Evite exigir conhecimentos técnicos do usuário.
+
+## Etapas de configuração
+
+### 1. Projeto
+- Nome do projeto.
+- Descrição do negócio ou projeto.
+- Objetivo principal.
+- Público-alvo.
+- Tipo de site: Landing Page, Institucional, Catálogo Comercial, Portfólio ou Personalizado.
+
+### 2. Estrutura
+Permita selecionar as páginas desejadas:
+- Página inicial.
+- Sobre.
+- Produtos.
+- Serviços.
+- Galeria.
+- Contato.
+- FAQ.
+
+Sugira páginas automaticamente conforme o tipo de site selecionado, permitindo personalização.
+
+### 3. Aparência
+- Estilo visual: minimalista, moderno, elegante, corporativo ou personalizado.
+- Cor primária.
+- Cor secundária.
+- Tema claro ou escuro.
+- Campo opcional para referências e observações visuais.
+
+### 4. Funcionalidades
+Permita selecionar:
+- Contato via WhatsApp.
+- Formulário de contato.
+- Catálogo de produtos.
+- Busca interna.
+- Filtros.
+- Galeria de imagens.
+- Cadastro de usuários.
+- Painel administrativo.
+
+Exiba perguntas complementares somente quando forem relevantes às funcionalidades selecionadas.
+
+Identifique automaticamente requisitos técnicos e dependências entre funcionalidades.
+
+### 5. Revisão e geração
+- Apresente um resumo editável das escolhas.
+- Informe requisitos técnicos identificados.
+- Apresente uma estimativa qualitativa de complexidade: baixa, moderada ou alta.
+- Gere um prompt estruturado contendo contexto, estrutura, aparência, funcionalidades, requisitos técnicos e diretrizes de desenvolvimento.
+- Permita copiar o prompt e exportá-lo como arquivo TXT.
+
+## Regras de geração
+
+- Utilize templates modulares e regras determinísticas.
+- Inclua apenas instruções relevantes às escolhas realizadas.
+- Identifique dependências e possíveis conflitos.
+- Não invente informações não fornecidas pelo usuário.
+- Inclua diretrizes de modularidade, responsividade, acessibilidade, segurança e manutenibilidade.
+- Instrua a IA destinatária a respeitar o escopo e evitar complexidade desnecessária.
+- Não confunda as funcionalidades do site planejado com as funcionalidades do próprio Site Blueprint.
+
+## Arquitetura
+
+- Desenvolva uma aplicação exclusivamente frontend.
+- Utilize LocalStorage para preservar a configuração atual.
+- Separe interface, estado, templates, validação e lógica de geração.
+- Centralize configurações e padrões visuais.
+- Mantenha os templates e as regras de dependência em módulos independentes e extensíveis.
+- Utilize componentes reutilizáveis.
+- Evite dependências desnecessárias.
+- Não implemente autenticação, backend, banco de dados externo ou serviços pagos.
+
+## Entrega
+
+Implemente um MVP funcional com todas as etapas conectadas.
+
+Garanta que o usuário possa retornar às etapas anteriores sem perder suas configurações e que o prompt gerado corresponda às escolhas realizadas.
+
+Ao finalizar, verifique o funcionamento do fluxo completo e apresente um resumo objetivo da implementação e de suas limitações.
